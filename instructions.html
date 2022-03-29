@@ -54,3 +54,25 @@ Git displays different symbols which mean different things
 
 
 -->
+
+<!---
+If changes are being added or made directly in GitHub we need to ensure that those changes are also in our local machine.
+the way to do this is by typing:
+
+git pull [remote from where you are pulling] [name of branch]
+
+git pull origin master
+
+-->
+
+<!---
+There is a way to put in place a tracker or sniffer to check GitHub or remote branch for changes.
+The aim is to reduce the instructions we need to type in order to synchronise GitHub/remote branch with our local.
+
+git branch --set-upstream-to=origin/master master
+                                ^            ^
+                This is the path to GitHub   This is the branch we are tracking in GitHub.
+
+
+
+-->
