@@ -140,7 +140,7 @@ The above should create the local copy.
 
 <!--/////////////////////////////////-->
 
-<!---- Ggit log and git show  and git show head~x   -->
+<!---- Ggit log and git show  and git show HEAD~x   -->
 
 <!--/////////////////////////////////-->
 <!--
@@ -162,9 +162,40 @@ gif show [shas number first 8 digits]
 git show 33604c33
 
 
+The last commit includes a [HEAD] which identifies that commit as the last one. Using that [HEAD] one access that last 
+change as:
+
+git show HEAD
+
+But you can also use the [HEAD] and subtraction to access the 2nd commit before the last as such:
+
+git show HEAD~2
+
+You can also use head to compare amongst two commits such as:
+
+git show HEAD~2 HEAD~5
 
 
 -->
 
+<!--/////////////////////////////////-->
+
+<!---- git annotate   -->
+
+<!--/////////////////////////////////-->
+
+<!--
+
+
+
+
+
+
+
+
+
+
+    
+-->
 
 
